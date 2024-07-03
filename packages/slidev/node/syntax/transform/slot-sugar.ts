@@ -1,4 +1,4 @@
-import type { MarkdownTransformContext } from '@slidev/types'
+import type { MarkdownTransformContext } from '@smslidev/types'
 import { getCodeBlocks } from './utils'
 
 export function transformSlotSugar(

@@ -1,5 +1,5 @@
-import type { ShikiSetupReturn } from '@slidev/types'
-import { defineShikiSetup } from '@slidev/types'
+import type { ShikiSetupReturn } from '@smslidev/types'
+import { defineShikiSetup } from '@smslidev/types'
 
 export default defineShikiSetup((): ShikiSetupReturn => {
   return {

@@ -11,8 +11,8 @@
 Create `./setup/shortcuts.ts` with the following content:
 
 ```ts
-import type { NavOperations, ShortcutOptions } from '@slidev/types'
-import { defineShortcutsSetup } from '@slidev/types'
+import type { NavOperations, ShortcutOptions } from '@smslidev/types'
+import { defineShortcutsSetup } from '@smslidev/types'
 
 export default defineShortcutsSetup((nav: NavOperations, base: ShortcutOptions[]) => {
   return [
@@ -40,8 +40,8 @@ The configuration function receives an object with some navigation methods, and 
 The `key` type only allows for strings, but you can still bind multiple keys by using following convention:
 
 ```ts
-import type { NavOperations, ShortcutOptions } from '@slidev/types'
-import { defineShortcutsSetup } from '@slidev/types'
+import type { NavOperations, ShortcutOptions } from '@smslidev/types'
+import { defineShortcutsSetup } from '@smslidev/types'
 
 export default defineShortcutsSetup((nav: NavOperations, base: ShortcutOptions[]) => {
   return [
@@ -60,7 +60,7 @@ export default defineShortcutsSetup((nav: NavOperations, base: ShortcutOptions[]
 The `nav` navigation operations allow you to access some functionalities than the basic _next slide_ or _previous slide_. See the following for use cases:
 
 ```ts
-import { NavOperations, defineShortcutsSetup } from '@slidev/types'
+import { NavOperations, defineShortcutsSetup } from '@smslidev/types'
 
 export default defineShortcutsSetup((nav: NavOperations) => {
   return [

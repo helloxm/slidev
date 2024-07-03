@@ -1,6 +1,6 @@
 {
-  "name": "@slidev/parser",
-  "version": "0.49.13",
+  "name": "@smslidev/parser",
+  "version": "0.49.14",
   "description": "Markdown parser for Slidev",
   "author": "antfu <anthonyfu117@hotmail.com>",
   "license": "MIT",
@@ -8,9 +8,9 @@
   "homepage": "https://sli.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slidevjs/slidev"
+    "url": "https://github.com/helloxm/slidev"
   },
-  "bugs": "https://github.com/slidevjs/slidev/issues",
+  "bugs": "https://github.com/helloxm/slidev/issues",
   "exports": {
     ".": {
       "types": "./dist/index.d.mts",
@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@antfu/utils": "^0.7.10",
-    "@slidev/types": "workspace:*",
+    "@smslidev/types": "workspace:*",
     "yaml": "^2.4.5"
   }
 }

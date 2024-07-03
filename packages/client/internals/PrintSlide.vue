@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { SlideRoute } from '@slidev/types'
+import type { SlideRoute } from '@smslidev/types'
 import { useFixedNav, useNav } from '../composables/useNav'
 import { createFixedClicks } from '../composables/useClicks'
 import { CLICKS_MAX } from '../constants'

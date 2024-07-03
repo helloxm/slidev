@@ -7,7 +7,7 @@ Slidev uses [Vue 3](https://v3.vuejs.org/) to render the application on the clie
 Create `./setup/main.ts` with the following content:
 
 ```ts
-import { defineAppSetup } from '@slidev/types'
+import { defineAppSetup } from '@smslidev/types'
 
 export default defineAppSetup(({ app, router }) => {
   // Vue App

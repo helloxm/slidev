@@ -19,6 +19,6 @@ node_modules
 packages/create-app/template/pages
 packages/create-app/template/slides.md
 packages/create-app/template/snippets
-packages/slidev/README.md
+packages/smslidev/README.md
 slides-export.md
 *slides-export.pptx

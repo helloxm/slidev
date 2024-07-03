@@ -9,7 +9,7 @@ Add your pages to the Slidev app.
 Create `./setup/routes.ts` with the following content:
 
 ```ts
-import { defineRoutesSetup } from '@slidev/types'
+import { defineRoutesSetup } from '@smslidev/types'
 
 export default defineRoutesSetup((routes) => {
   return [

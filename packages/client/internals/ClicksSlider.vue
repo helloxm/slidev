@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ClicksContext } from '@slidev/types'
+import type { ClicksContext } from '@smslidev/types'
 import { clamp, range } from '@antfu/utils'
 import { computed } from 'vue'
 import { CLICKS_MAX } from '../constants'

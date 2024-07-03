@@ -5,9 +5,9 @@ const path = resolve('./package.json')
 
 const OVERRIDDEN_PKGS = [
   '@slidev/cli',
-  '@slidev/types',
-  '@slidev/parser',
-  '@slidev/client',
+  '@smslidev/types',
+  '@smslidev/parser',
+  '@smslidev/client',
 ]
 
 async function removeDeps() {

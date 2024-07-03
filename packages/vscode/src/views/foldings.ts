@@ -1,4 +1,4 @@
-import { parse } from '@slidev/parser'
+import { parse } from '@smslidev/parser'
 import type { TextDocument } from 'vscode'
 import { FoldingRangeKind, languages } from 'vscode'
 import { useDisposable } from '../composables/useDisposable'

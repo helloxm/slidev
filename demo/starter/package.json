@@ -1,5 +1,5 @@
 {
-  "name": "slidev-demo",
+  "name": "@smslive/slidev-demo",
   "private": true,
   "scripts": {
     "build": "slidev build",
@@ -8,9 +8,9 @@
     "export-notes": "slidev export-notes"
   },
   "devDependencies": {
-    "@slidev/cli": "workspace:*",
     "@slidev/theme-default": "^0.25.0",
     "@slidev/theme-seriph": "^0.25.0",
+    "@smslidev/cli": "workspace:*",
     "nodemon": "^3.1.4",
     "vue": "^3.4.31"
   }

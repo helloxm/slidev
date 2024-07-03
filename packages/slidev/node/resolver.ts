@@ -10,7 +10,7 @@ import globalDirs from 'global-directory'
 import prompts from 'prompts'
 import { parseNi, run } from '@antfu/ni'
 import { underline, yellow } from 'kolorist'
-import type { RootsInfo } from '@slidev/types'
+import type { RootsInfo } from '@smslidev/types'
 
 const cliRoot = fileURLToPath(new URL('..', import.meta.url))
 
@@ -232,7 +232,7 @@ export async function getRoots(entry?: string): Promise<RootsInfo> {
   isInstalledGlobally.value
     = slash(relative(userRoot, process.argv[1])).includes('/.pnpm/')
     || (await import('is-installed-globally')).default
-  const clientRoot = await findPkgRoot('@slidev/client', cliRoot, true)
+  const clientRoot = await findPkgRoot('@smslidev/client', cliRoot, true)
   const closestPkgRoot = dirname(await findClosestPkgJsonPath(userRoot) || userRoot)
   const userPkgJson = getUserPkgJson(closestPkgRoot)
   const userWorkspaceRoot = searchForWorkspaceRoot(closestPkgRoot)

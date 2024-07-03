@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onMounted, reactive, ref, shallowRef } from 'vue'
 import { useHead } from '@unhead/vue'
-import type { ClicksContext, SlideRoute } from '@slidev/types'
+import type { ClicksContext, SlideRoute } from '@smslidev/types'
 import { pathPrefix, slidesTitle } from '../env'
 import { getSlidePath } from '../logic/slides'
 import { createFixedClicks } from '../composables/useClicks'

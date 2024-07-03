@@ -1,5 +1,5 @@
 import { clamp, sum } from '@antfu/utils'
-import type { ClicksContext, NormalizedRangeClickValue, NormalizedSingleClickValue, RawAtValue, RawSingleAtValue, SlideRoute } from '@slidev/types'
+import type { ClicksContext, NormalizedRangeClickValue, NormalizedSingleClickValue, RawAtValue, RawSingleAtValue, SlideRoute } from '@smslidev/types'
 import type { Ref } from 'vue'
 import { computed, ref, shallowReactive } from 'vue'
 import { routeForceRefresh } from '../logic/route'

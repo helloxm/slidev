@@ -9,8 +9,8 @@ import UnoCSS from 'unocss/vite'
 export default defineConfig({
   resolve: {
     alias: {
-      '@slidev/client/': `${resolve(__dirname, '.vitepress/@slidev/client')}/`,
-      '@slidev/parser': resolve(__dirname, '.vitepress/@slidev/parser'),
+      '@smslidev/client/': `${resolve(__dirname, '.vitepress/@smslidev/client')}/`,
+      '@smslidev/parser': resolve(__dirname, '.vitepress/@smslidev/parser'),
       '@slidev/theme-default': resolve(__dirname, '.vitepress/@slidev/theme-default'),
     },
   },
@@ -30,7 +30,7 @@ export default defineConfig({
     Components({
       dirs: [
         './.vitepress/theme/components',
-        './.vitepress/@slidev/client/builtin',
+        './.vitepress/@smslidev/client/builtin',
       ],
       extensions: ['vue', 'md'],
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],

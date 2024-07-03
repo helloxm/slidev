@@ -1,5 +1,5 @@
 import { createSingletonPromise } from '@antfu/utils'
-import type { CodeRunner, CodeRunnerOutput, CodeRunnerOutputText, CodeRunnerOutputs } from '@slidev/types'
+import type { CodeRunner, CodeRunnerOutput, CodeRunnerOutputText, CodeRunnerOutputs } from '@smslidev/types'
 
 import type ts from 'typescript'
 import { ref } from 'vue'

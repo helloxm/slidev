@@ -117,11 +117,11 @@ A shorthand of `$slidev.nav`.
 
 ### Context
 
-If you want to get the context programmatically (also type-safely), you can import composables from `@slidev/client`:
+If you want to get the context programmatically (also type-safely), you can import composables from `@smslidev/client`:
 
 ```vue
 <script setup>
-import { onSlideEnter, onSlideLeave, useDarkMode, useIsSlideActive, useNav, useSlideContext } from '@slidev/client'
+import { onSlideEnter, onSlideLeave, useDarkMode, useIsSlideActive, useNav, useSlideContext } from '@smslidev/client'
 
 const { $slidev } = useSlideContext()
 const { currentPage, currentLayout, currentSlideRoute } = useNav()
@@ -134,15 +134,15 @@ onSlideLeave(() => { /* ... */ })
 ```
 
 > [!NOTE]
-> Previously, you might see the usage of importing nested modules like `import { isDark } from '@slidev/client/logic/dark.ts'`, this is **NOT RECOMMENDED** as they are internal implementation details and might be broken in the future. Try always to use the public API from `@slidev/client` whenever possible.
+> Previously, you might see the usage of importing nested modules like `import { isDark } from '@smslidev/client/logic/dark.ts'`, this is **NOT RECOMMENDED** as they are internal implementation details and might be broken in the future. Try always to use the public API from `@smslidev/client` whenever possible.
 
 ### Types
 
-If you want to get a type programmatically, you can import types like `TocItem` from `@slidev/types`:
+If you want to get a type programmatically, you can import types like `TocItem` from `@smslidev/types`:
 
 ```vue
 <script setup>
-import type { TocItem } from '@slidev/types'
+import type { TocItem } from '@smslidev/types'
 
 function tocFunc(tree: TocItem[]): TocItem[] {
   // ...

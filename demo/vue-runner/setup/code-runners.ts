@@ -1,5 +1,5 @@
 /* eslint-disable no-new-func */
-import { defineCodeRunnersSetup } from '@slidev/types'
+import { defineCodeRunnersSetup } from '@smslidev/types'
 
 export default defineCodeRunnersSetup(() => {
   return {

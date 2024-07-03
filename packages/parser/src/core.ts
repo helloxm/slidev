@@ -1,6 +1,6 @@
 import YAML from 'yaml'
 import { ensurePrefix } from '@antfu/utils'
-import type { FrontmatterStyle, SlidevDetectedFeatures, SlidevMarkdown, SlidevPreparserExtension, SourceSlideInfo } from '@slidev/types'
+import type { FrontmatterStyle, SlidevDetectedFeatures, SlidevMarkdown, SlidevPreparserExtension, SourceSlideInfo } from '@smslidev/types'
 
 export function stringify(data: SlidevMarkdown) {
   return `${data.slides.map(stringifySlide).join('\n').trim()}\n`

@@ -1,5 +1,5 @@
 import type { Token } from 'markdown-it'
-import type { ResolvedFontOptions, SlideInfo } from '@slidev/types'
+import type { ResolvedFontOptions, SlideInfo } from '@smslidev/types'
 import YAML from 'yaml'
 
 export function stringifyMarkdownTokens(tokens: Token[]) {

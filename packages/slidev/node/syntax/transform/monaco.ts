@@ -1,5 +1,5 @@
 import lz from 'lz-string'
-import type { MarkdownTransformContext } from '@slidev/types'
+import type { MarkdownTransformContext } from '@smslidev/types'
 
 export function transformMonaco(ctx: MarkdownTransformContext) {
   const enabled = (ctx.options.data.config.monaco === true || ctx.options.data.config.monaco === ctx.options.mode)

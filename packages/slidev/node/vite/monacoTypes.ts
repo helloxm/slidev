@@ -4,7 +4,7 @@ import { slash } from '@antfu/utils'
 import fg from 'fast-glob'
 import type { Plugin } from 'vite'
 import { findDepPkgJsonPath } from 'vitefu'
-import type { ResolvedSlidevOptions } from '@slidev/types'
+import type { ResolvedSlidevOptions } from '@smslidev/types'
 import { toAtFS } from '../resolver'
 
 export function createMonacoTypesLoader({ userRoot, utils }: ResolvedSlidevOptions): Plugin {
@@ -64,7 +64,7 @@ export function createMonacoTypesLoader({ userRoot, utils }: ResolvedSlidevOptio
           return '/** No files found **/'
 
         return [
-          'import { addFile } from "@slidev/client/setup/monaco.ts"',
+          'import { addFile } from "@smslidev/client/setup/monaco.ts"',
           ...files.map(file => `addFile(() => import(${
             JSON.stringify(`${toAtFS(resolve(root, file))}?monaco-types&raw`)
           }), ${JSON.stringify(`node_modules/${name}/${file}`)})`),

@@ -1,5 +1,5 @@
 import { and, not, or } from '@vueuse/math'
-import type { NavOperations, ShortcutOptions } from '@slidev/types'
+import type { NavOperations, ShortcutOptions } from '@smslidev/types'
 import { downloadPDF } from '../utils'
 import { toggleDark } from '../logic/dark'
 import { activeDragElement, magicKeys, showGotoDialog, showOverview, toggleOverview } from '../state'

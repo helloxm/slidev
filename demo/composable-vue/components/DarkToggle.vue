@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDarkMode } from '@slidev/client'
+import { useDarkMode } from '@smslidev/client'
 
 const { isDark, toggleDark } = useDarkMode()
 </script>

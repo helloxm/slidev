@@ -9,10 +9,10 @@
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.67",
     "@iconify-json/ri": "^1.1.21",
-    "@slidev/cli": "workspace:*",
     "@slidev/theme-default": "^0.25.0",
     "@slidev/theme-seriph": "^0.25.0",
-    "@slidev/types": "workspace:*",
+    "@smslidev/cli": "workspace:*",
+    "@smslidev/types": "workspace:*",
     "nodemon": "^3.1.4"
   }
 }

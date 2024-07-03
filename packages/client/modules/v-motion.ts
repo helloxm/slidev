@@ -1,7 +1,7 @@
 import type { App, ObjectDirective } from 'vue'
 import { watch } from 'vue'
 import { MotionDirective } from '@vueuse/motion'
-import type { ClicksInfo } from '@slidev/types'
+import type { ClicksInfo } from '@smslidev/types'
 import { injectionClicksContext, injectionCurrentPage, injectionRenderContext } from '../constants'
 import { useNav } from '../composables/useNav'
 import { makeId } from '../logic/utils'

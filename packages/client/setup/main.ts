@@ -1,4 +1,4 @@
-import type { AppContext } from '@slidev/types'
+import type { AppContext } from '@smslidev/types'
 import TwoSlashFloatingVue from '@shikijs/vitepress-twoslash/client'
 import type { App } from 'vue'
 import { nextTick } from 'vue'

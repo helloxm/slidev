@@ -1,6 +1,6 @@
 import { uniq } from '@antfu/utils'
 import Debug from 'debug'
-import type { ResolvedSlidevOptions, ResolvedSlidevUtils, SlidevData, SlidevEntryOptions } from '@slidev/types'
+import type { ResolvedSlidevOptions, ResolvedSlidevUtils, SlidevData, SlidevEntryOptions } from '@smslidev/types'
 import mm from 'micromatch'
 import { parser } from './parser'
 import { getThemeMeta, resolveTheme } from './integrations/themes'

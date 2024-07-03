@@ -10,7 +10,7 @@ Create `./setup/shiki.ts` file with the following content:
 
 ```ts
 /* ./setup/shiki.ts */
-import { defineShikiSetup } from '@slidev/types'
+import { defineShikiSetup } from '@smslidev/types'
 
 export default defineShikiSetup(() => {
   return {
@@ -29,7 +29,7 @@ If you want to add custom theme or language (TextMate grammar/themes in JSON), y
 
 ```ts
 /* ./setup/shiki.ts */
-import { defineShikiSetup } from '@slidev/types'
+import { defineShikiSetup } from '@smslidev/types'
 import customTheme from './customTheme.tmTheme.json'
 import customLanguage from './customLanguage.tmLanguage.json'
 

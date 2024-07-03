@@ -1,4 +1,4 @@
-import { parseRangeString } from '@slidev/parser/core'
+import { parseRangeString } from '@smslidev/parser/core'
 import { useTimestamp } from '@vueuse/core'
 import { computed, ref } from 'vue'
 

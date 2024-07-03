@@ -5,7 +5,7 @@
 Create `./setup/katex.ts` with the following content:
 
 ```ts
-import { defineKatexSetup } from '@slidev/types'
+import { defineKatexSetup } from '@smslidev/types'
 
 export default defineKatexSetup(() => {
   return {

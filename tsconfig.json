@@ -7,12 +7,12 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "paths": {
-      "@slidev/client": ["./packages/client/index.ts"],
-      "@slidev/client/*": ["./packages/client/*"],
-      "@slidev/types": ["./packages/types/src/index.ts"],
-      "@slidev/parser/fs": ["./packages/parser/src/fs.ts"],
-      "@slidev/parser/core": ["./packages/parser/src/core.ts"],
-      "@slidev/parser": ["./packages/parser/src/index.ts"]
+      "@smslidev/client": ["./packages/client/index.ts"],
+      "@smslidev/client/*": ["./packages/client/*"],
+      "@smslidev/types": ["./packages/types/src/index.ts"],
+      "@smslidev/parser/fs": ["./packages/parser/src/fs.ts"],
+      "@smslidev/parser/core": ["./packages/parser/src/core.ts"],
+      "@smslidev/parser": ["./packages/parser/src/index.ts"]
     },
     "resolveJsonModule": true,
     "types": [

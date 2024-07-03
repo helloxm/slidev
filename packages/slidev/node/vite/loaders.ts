@@ -4,8 +4,8 @@ import { notNullish, range } from '@antfu/utils'
 import fg from 'fast-glob'
 import { bold, gray, red, yellow } from 'kolorist'
 
-import type { ResolvedSlidevOptions, SlideInfo, SlidePatch, SlidevPluginOptions, SlidevServerOptions } from '@slidev/types'
-import * as parser from '@slidev/parser/fs'
+import type { ResolvedSlidevOptions, SlideInfo, SlidePatch, SlidevPluginOptions, SlidevServerOptions } from '@smslidev/types'
+import * as parser from '@smslidev/parser/fs'
 import equal from 'fast-deep-equal'
 
 import type { LoadResult } from 'rollup'
@@ -29,7 +29,7 @@ const templateImportContextUtils = `import {
   useSlideContext,
   provideFrontmatter as _provideFrontmatter,
   frontmatterToProps as _frontmatterToProps,
-} from "@slidev/client/context.ts"`.replace(/\n\s*/g, ' ')
+} from "@smslidev/client/context.ts"`.replace(/\n\s*/g, ' ')
 const templateInitContext = `const { $slidev, $nav, $clicksContext, $clicks, $page, $renderContext, $frontmatter } = useSlideContext()`
 
 export function getBodyJson(req: Connect.IncomingMessage) {
@@ -384,7 +384,7 @@ export function createSlidesLoader(
       name: 'slidev:context-transform:pre',
       enforce: 'pre',
       async transform(code, id) {
-        if (!id.endsWith('.vue') || id.includes('/@slidev/client/') || id.includes('/packages/client/'))
+        if (!id.endsWith('.vue') || id.includes('/@smslidev/client/') || id.includes('/packages/client/'))
           return
         return transformVue(code)
       },
@@ -472,7 +472,7 @@ export function createSlidesLoader(
         component = component.slice(0, component.indexOf('</script>'))
 
         const scriptIndex = (matchScript.index || 0) + matchScript[0].length
-        const provideImport = '\nimport { injectionSlidevContext } from "@slidev/client/constants.ts"\n'
+        const provideImport = '\nimport { injectionSlidevContext } from "@smslidev/client/constants.ts"\n'
         code = `${code.slice(0, scriptIndex)}${provideImport}${code.slice(scriptIndex)}`
 
         let injectIndex = exportIndex + provideImport.length

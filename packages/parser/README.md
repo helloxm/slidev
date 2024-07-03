@@ -1,6 +1,6 @@
-# @slidev/parser
+# @smslidev/parser
 
-[![NPM version](https://img.shields.io/npm/v/@slidev/parser?color=3AB9D4&label=)](https://www.npmjs.com/package/@slidev/parser)
+[![NPM version](https://img.shields.io/npm/v/@smslidev/parser?color=3AB9D4&label=)](https://www.npmjs.com/package/@smslidev/parser)
 
 Slides markdown parser for [Slidev](https://sli.dev).
 

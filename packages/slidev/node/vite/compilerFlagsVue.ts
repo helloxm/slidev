@@ -1,6 +1,6 @@
 import type { Plugin } from 'vite'
 import { objectEntries } from '@antfu/utils'
-import type { ResolvedSlidevOptions } from '@slidev/types'
+import type { ResolvedSlidevOptions } from '@smslidev/types'
 import { getDefine } from './extendConfig'
 
 /**

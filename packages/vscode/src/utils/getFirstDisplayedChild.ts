@@ -1,4 +1,4 @@
-import type { SourceSlideInfo } from '@slidev/types'
+import type { SourceSlideInfo } from '@smslidev/types'
 
 /**
  * If `source` is displayed in the slides, return itself.

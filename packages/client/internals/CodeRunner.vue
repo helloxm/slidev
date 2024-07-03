@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { debounce, toArray } from '@antfu/utils'
 import { useVModel } from '@vueuse/core'
-import type { CodeRunnerOutputs, RawAtValue } from '@slidev/types'
+import type { CodeRunnerOutputs, RawAtValue } from '@smslidev/types'
 import { computed, onMounted, onUnmounted, ref, shallowRef, toValue, watch, watchSyncEffect } from 'vue'
 import { useSlideContext } from '../context'
 import setupCodeRunners from '../setup/code-runners'

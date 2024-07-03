@@ -9,7 +9,7 @@ By default, JavaScript, TypeScript runners are supported built-in. They run in t
 Create `./setup/code-runners.ts` with the following content:
 
 ```ts
-import { defineCodeRunnersSetup } from '@slidev/types'
+import { defineCodeRunnersSetup } from '@smslidev/types'
 
 export default defineCodeRunnersSetup(() => {
   return {

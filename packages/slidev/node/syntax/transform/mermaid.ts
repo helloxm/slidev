@@ -1,5 +1,5 @@
 import lz from 'lz-string'
-import type { MarkdownTransformContext } from '@slidev/types'
+import type { MarkdownTransformContext } from '@smslidev/types'
 
 /**
  * Transform Mermaid code blocks (render done on client side)

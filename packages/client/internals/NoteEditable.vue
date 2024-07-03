@@ -2,7 +2,7 @@
 import type { PropType } from 'vue'
 import { nextTick, ref, toRef, watch, watchEffect } from 'vue'
 import { ignorableWatch, onClickOutside, useVModel } from '@vueuse/core'
-import type { ClicksContext } from '@slidev/types'
+import type { ClicksContext } from '@smslidev/types'
 import { useDynamicSlideInfo } from '../composables/useSlideInfo'
 import NoteDisplay from './NoteDisplay.vue'
 

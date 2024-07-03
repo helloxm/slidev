@@ -2,7 +2,7 @@
 import { computed, defineAsyncComponent, defineComponent, h, ref, toRef } from 'vue'
 import type { CSSProperties, PropType } from 'vue'
 import { provideLocal } from '@vueuse/core'
-import type { ClicksContext, RenderContext, SlideRoute } from '@slidev/types'
+import type { ClicksContext, RenderContext, SlideRoute } from '@smslidev/types'
 import { injectionClicksContext, injectionCurrentPage, injectionRenderContext, injectionRoute, injectionSlideZoom } from '../constants'
 import { getSlideClass } from '../utils'
 import { configs } from '../env'

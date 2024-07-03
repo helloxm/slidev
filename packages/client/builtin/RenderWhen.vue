@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { RenderContext } from '@slidev/types'
+import type { RenderContext } from '@smslidev/types'
 import { computed, ref } from 'vue'
 import { useElementVisibility } from '@vueuse/core'
 import { useSlideContext } from '../context'

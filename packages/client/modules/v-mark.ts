@@ -2,7 +2,7 @@ import type { RoughAnnotationConfig } from '@slidev/rough-notation'
 import { annotate } from '@slidev/rough-notation'
 import type { App } from 'vue'
 import { computed, watchEffect } from 'vue'
-import type { RawAtValue } from '@slidev/types'
+import type { RawAtValue } from '@smslidev/types'
 import { resolveClick } from './v-click'
 
 export interface RoughDirectiveOptions extends Partial<RoughAnnotationConfig> {

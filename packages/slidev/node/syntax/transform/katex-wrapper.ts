@@ -1,4 +1,4 @@
-import type { MarkdownTransformContext } from '@slidev/types'
+import type { MarkdownTransformContext } from '@smslidev/types'
 
 /**
  * Wrapper KaTex syntax `$$...$$` for highlighting

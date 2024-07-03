@@ -1,5 +1,5 @@
 import { clamp, ensurePrefix } from '@antfu/utils'
-import type { SourceSlideInfo } from '@slidev/types'
+import type { SourceSlideInfo } from '@smslidev/types'
 import { computed, watch } from '@vue/runtime-core'
 import type { DecorationOptions } from 'vscode'
 import { Position, Range, ThemeColor, window } from 'vscode'

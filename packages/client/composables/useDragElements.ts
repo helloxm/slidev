@@ -1,5 +1,5 @@
 import { debounce, ensureSuffix } from '@antfu/utils'
-import type { SlidePatch } from '@slidev/types'
+import type { SlidePatch } from '@smslidev/types'
 import { injectLocal, onClickOutside, useWindowFocus } from '@vueuse/core'
 import type { CSSProperties, DirectiveBinding, InjectionKey, WatchStopHandle } from 'vue'
 import { computed, ref, watch } from 'vue'

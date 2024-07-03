@@ -2,7 +2,7 @@ import type { MarkdownItShikiOptions } from '@shikijs/markdown-it'
 import type { Highlighter } from 'shiki'
 import { codeToKeyedTokens } from 'shiki-magic-move/core'
 import lz from 'lz-string'
-import type { MarkdownTransformContext } from '@slidev/types'
+import type { MarkdownTransformContext } from '@smslidev/types'
 import { normalizeRangeStr } from './utils'
 import { reCodeBlock } from './code-wrapper'
 

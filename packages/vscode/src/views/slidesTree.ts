@@ -1,5 +1,5 @@
-import { save as slidevSave } from '@slidev/parser/fs'
-import type { SourceSlideInfo } from '@slidev/types'
+import { save as slidevSave } from '@smslidev/parser/fs'
+import type { SourceSlideInfo } from '@smslidev/types'
 import { computed, markRaw, onScopeDispose, watch, watchEffect } from '@vue/runtime-core'
 import type { TreeItem } from 'vscode'
 import { DataTransferItem, EventEmitter, ThemeIcon, TreeItemCollapsibleState, commands, window } from 'vscode'

@@ -1,6 +1,6 @@
 import path from 'node:path'
 import MagicString from 'magic-string-stack'
-import type { MarkdownTransformContext } from '@slidev/types'
+import type { MarkdownTransformContext } from '@smslidev/types'
 
 export function createTransformContext(code: string): MarkdownTransformContext {
   const s = new MagicString(code)

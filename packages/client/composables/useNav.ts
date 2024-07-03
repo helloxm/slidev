@@ -1,4 +1,4 @@
-import type { ClicksContext, SlideRoute, TocItem } from '@slidev/types'
+import type { ClicksContext, SlideRoute, TocItem } from '@smslidev/types'
 import type { ComputedRef, Ref, TransitionGroupProps, WritableComputedRef } from 'vue'
 import { computed, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'

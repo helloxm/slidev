@@ -16,10 +16,10 @@
   "devDependencies": {
     "@iconify/json": "^2.2.223",
     "@shikijs/vitepress-twoslash": "^1.10.0",
-    "@slidev/client": "0.34.3",
-    "@slidev/parser": "0.34.3",
     "@slidev/theme-default": "0.21.2",
-    "@slidev/types": "0.34.3",
+    "@smslidev/client": "0.34.3",
+    "@smslidev/parser": "0.34.3",
+    "@smslidev/types": "0.34.3",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.14.9",
     "@unocss/reset": "^0.61.0",

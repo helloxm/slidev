@@ -1,7 +1,7 @@
 import type { Awaitable } from '@antfu/utils'
 import type MarkdownIt from 'markdown-it'
 import type { PluginContext } from 'rollup'
-import type { ResolvedSlidevOptions } from '@slidev/types'
+import type { ResolvedSlidevOptions } from '@smslidev/types'
 
 export interface VirtualModuleTemplate {
   id: string

@@ -1,5 +1,5 @@
 import { createSingletonPromise } from '@antfu/utils'
-import type { MonacoSetupReturn } from '@slidev/types'
+import type { MonacoSetupReturn } from '@smslidev/types'
 import * as monaco from 'monaco-editor'
 import { watchEffect } from 'vue'
 import { setupTypeAcquisition } from '@typescript/ata'

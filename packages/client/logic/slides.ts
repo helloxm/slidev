@@ -1,4 +1,4 @@
-import type { SlideRoute } from '@slidev/types'
+import type { SlideRoute } from '@smslidev/types'
 import { computed, watch, watchEffect } from 'vue'
 import { useSlideContext } from '../context'
 import { useNav } from '../composables/useNav'

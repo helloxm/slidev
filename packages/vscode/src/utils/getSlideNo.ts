@@ -1,5 +1,5 @@
-import type { SourceSlideInfo } from '@slidev/types'
-import type { LoadedSlidevData } from '@slidev/parser/fs'
+import type { SourceSlideInfo } from '@smslidev/types'
+import type { LoadedSlidevData } from '@smslidev/parser/fs'
 
 function arrayShallowEqual<T>(a: T[], b: T[]) {
   return a.length === b.length && a.every((v, i) => v === b[i])

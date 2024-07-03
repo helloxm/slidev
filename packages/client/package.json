@@ -1,7 +1,7 @@
 {
-  "name": "@slidev/client",
+  "name": "@smslidev/client",
   "type": "module",
-  "version": "0.49.13",
+  "version": "0.49.14",
   "description": "Presentation slides for developers",
   "author": "antfu <anthonyfu117@hotmail.com>",
   "license": "MIT",
@@ -9,9 +9,9 @@
   "homepage": "https://sli.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slidevjs/slidev"
+    "url": "https://github.com/helloxm/slidev"
   },
-  "bugs": "https://github.com/slidevjs/slidev/issues",
+  "bugs": "https://github.com/helloxm/slidev/issues",
   "exports": {
     ".": "./index.ts",
     "./package.json": "./package.json",
@@ -34,9 +34,9 @@
     "@iconify-json/svg-spinners": "^1.1.2",
     "@shikijs/monaco": "^1.10.0",
     "@shikijs/vitepress-twoslash": "^1.10.0",
-    "@slidev/parser": "workspace:*",
     "@slidev/rough-notation": "^0.1.0",
-    "@slidev/types": "workspace:*",
+    "@smslidev/parser": "workspace:*",
+    "@smslidev/types": "workspace:*",
     "@typescript/ata": "^0.9.6",
     "@unhead/vue": "^1.9.14",
     "@unocss/reset": "^0.61.0",

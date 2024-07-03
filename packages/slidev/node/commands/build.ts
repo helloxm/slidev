@@ -5,7 +5,7 @@ import type { InlineConfig, ResolvedConfig } from 'vite'
 import { build as viteBuild } from 'vite'
 import connect from 'connect'
 import sirv from 'sirv'
-import type { BuildArgs, ResolvedSlidevOptions } from '@slidev/types'
+import type { BuildArgs, ResolvedSlidevOptions } from '@smslidev/types'
 import { getIndexHtml, resolveViteConfigs } from './shared'
 
 export async function build(

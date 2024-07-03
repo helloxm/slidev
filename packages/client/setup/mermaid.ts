@@ -1,5 +1,5 @@
-import type { MermaidOptions } from '@slidev/types'
-import { defineMermaidSetup } from '@slidev/types'
+import type { MermaidOptions } from '@smslidev/types'
+import { defineMermaidSetup } from '@smslidev/types'
 import setups from '#slidev/setups/mermaid'
 
 export default defineMermaidSetup(() => {

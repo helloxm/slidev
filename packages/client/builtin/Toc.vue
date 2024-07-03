@@ -9,7 +9,7 @@ Usage:
 -->
 <script setup lang='ts'>
 import { computed } from 'vue'
-import type { TocItem } from '@slidev/types'
+import type { TocItem } from '@smslidev/types'
 import { useSlideContext } from '../context'
 
 const props = withDefaults(

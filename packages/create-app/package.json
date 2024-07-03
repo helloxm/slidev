@@ -1,7 +1,7 @@
 {
-  "name": "create-slidev",
+  "name": "create-smslidev",
   "type": "module",
-  "version": "0.49.13",
+  "version": "0.49.14",
   "description": "Create starter template for Slidev",
   "author": "antfu <anthonyfu117@hotmail.com>",
   "license": "MIT",
@@ -9,12 +9,12 @@
   "homepage": "https://sli.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slidevjs/slidev"
+    "url": " https://github.com/helloxm/slidev"
   },
-  "bugs": "https://github.com/slidevjs/slidev/issues",
+  "bugs": "https://github.com/helloxm/slidev/issues",
   "main": "index.mjs",
   "bin": {
-    "create-slidev": "index.mjs"
+    "create-smslidev": "index.mjs"
   },
   "engines": {
     "node": ">=18.0.0"

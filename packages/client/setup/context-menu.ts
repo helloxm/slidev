@@ -1,7 +1,7 @@
 /// <reference types="unplugin-icons/types/vue3" />
 import type { ComputedRef } from 'vue'
 import { computed } from 'vue'
-import type { ContextMenuItem } from '@slidev/types'
+import type { ContextMenuItem } from '@smslidev/types'
 import { useNav } from '../composables/useNav'
 import { useDrawings } from '../composables/useDrawings'
 import { fullscreen, showEditor, toggleOverview } from '../state'

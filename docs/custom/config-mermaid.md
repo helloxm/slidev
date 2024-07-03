@@ -5,7 +5,7 @@
 Create `./setup/mermaid.ts` with the following content:
 
 ```ts
-import { defineMermaidSetup } from '@slidev/types'
+import { defineMermaidSetup } from '@smslidev/types'
 
 export default defineMermaidSetup(() => {
   return {
@@ -21,7 +21,7 @@ With the setup, you can provide a custom default setting for [Mermaid](https://m
 In case you want to create your custom Mermaid themes or styles, you can do this by defining `themeVariables` like in the following example:
 
 ```ts
-import { defineMermaidSetup } from '@slidev/types'
+import { defineMermaidSetup } from '@smslidev/types'
 
 export default defineMermaidSetup(() => {
   return {

@@ -5,7 +5,7 @@
 Create `./setup/monaco.ts` with the following content:
 
 ```ts
-import { defineMonacoSetup } from '@slidev/types'
+import { defineMonacoSetup } from '@smslidev/types'
 
 export default defineMonacoSetup(async (monaco) => {
   // use `monaco` to configure
@@ -88,7 +88,7 @@ Alternatively if you would like these options to be applied to every Monaco inst
 
 ```ts
 // ./setup/monaco.ts
-import { defineMonacoSetup } from '@slidev/types'
+import { defineMonacoSetup } from '@smslidev/types'
 
 export default defineMonacoSetup(() => {
   return {

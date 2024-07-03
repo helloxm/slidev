@@ -3,7 +3,7 @@
 import path from 'node:path'
 import lz from 'lz-string'
 import fs from 'fs-extra'
-import type { MarkdownTransformContext } from '@slidev/types'
+import type { MarkdownTransformContext } from '@smslidev/types'
 import { slash } from '@antfu/utils'
 import { monacoWriterWhitelist } from '../../vite/monacoWrite'
 

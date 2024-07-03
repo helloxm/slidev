@@ -2,7 +2,7 @@ import { join } from 'node:path'
 import process from 'node:process'
 import type { InlineConfig } from 'vite'
 import { createServer as createViteServer } from 'vite'
-import type { ResolvedSlidevOptions, SlidevServerOptions } from '@slidev/types'
+import type { ResolvedSlidevOptions, SlidevServerOptions } from '@smslidev/types'
 import { resolveViteConfigs } from './shared'
 
 export async function createServer(

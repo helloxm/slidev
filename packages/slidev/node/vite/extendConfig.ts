@@ -3,7 +3,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 import type { InlineConfig, Plugin } from 'vite'
 import { mergeConfig } from 'vite'
 import { slash, uniq } from '@antfu/utils'
-import type { ResolvedSlidevOptions } from '@slidev/types'
+import type { ResolvedSlidevOptions } from '@smslidev/types'
 import { createResolve } from 'mlly'
 import { getIndexHtml } from '../commands/shared'
 import { isInstalledGlobally, resolveImportPath, toAtFS } from '../resolver'
@@ -18,21 +18,21 @@ const INCLUDE_GLOBAL = [
   'yaml',
 ]
 
-const INCLUDE_LOCAL = INCLUDE_GLOBAL.map(i => `@slidev/cli > @slidev/client > ${i}`)
+const INCLUDE_LOCAL = INCLUDE_GLOBAL.map(i => `@slidev/cli > @smslidev/client > ${i}`)
 
 // @keep-sorted
 const EXCLUDE_GLOBAL = [
   '@antfu/utils',
   '@shikijs/monaco',
   '@shikijs/vitepress-twoslash/client',
-  '@slidev/client',
-  '@slidev/client/constants',
-  '@slidev/client/context',
-  '@slidev/client/logic/dark',
-  '@slidev/parser',
-  '@slidev/parser/core',
   '@slidev/rough-notation',
-  '@slidev/types',
+  '@smslidev/client',
+  '@smslidev/client/constants',
+  '@smslidev/client/context',
+  '@smslidev/client/logic/dark',
+  '@smslidev/parser',
+  '@smslidev/parser/core',
+  '@smslidev/types',
   '@unhead/vue',
   '@unocss/reset',
   '@vueuse/core',

@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "version": "0.49.13",
+  "version": "0.49.14",
   "private": true,
   "packageManager": "pnpm@9.4.0",
   "engines": {
@@ -31,9 +31,9 @@
     "@antfu/ni": "^0.21.12",
     "@antfu/utils": "^0.7.10",
     "@shikijs/markdown-it": "^1.10.0",
-    "@slidev/cli": "workspace:*",
-    "@slidev/parser": "workspace:*",
-    "@slidev/types": "workspace:*",
+    "@smslidev/cli": "workspace:*",
+    "@smslidev/parser": "workspace:*",
+    "@smslidev/types": "workspace:*",
     "@types/cli-progress": "^3.11.5",
     "@types/connect": "^3.4.38",
     "@types/debug": "^4.1.12",

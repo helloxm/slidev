@@ -9,7 +9,7 @@ Usage:
 <script setup lang="ts">
 import { computed } from 'vue'
 import { toArray } from '@antfu/utils'
-import type { TocItem } from '@slidev/types'
+import type { TocItem } from '@smslidev/types'
 import TitleRenderer from '#slidev/title-renderer'
 
 const props = withDefaults(defineProps<{

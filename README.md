@@ -10,29 +10,17 @@ Presentation <b>slide</b>s for <b>dev</b>elopers 🧑‍💻👩‍💻👨‍�
 </p>
 
 <p align="center">
-<a href="https://www.npmjs.com/package/@slidev/cli" target="__blank"><img src="https://img.shields.io/npm/v/@slidev/cli?color=2B90B6&label=" alt="NPM version"></a>
-<a href="https://www.npmjs.com/package/@slidev/cli" target="__blank"><img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@slidev/cli?color=349dbe&label="></a>
+<a href="https://www.npmjs.com/package/@smslidev/cli" target="__blank"><img src="https://img.shields.io/npm/v/@smslidev/cli?color=2B90B6&label=" alt="NPM version"></a>
+<a href="https://www.npmjs.com/package/@smslidev/cli" target="__blank"><img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@smslidev/cli?color=349dbe&label="></a>
 <a href="https://sli.dev/" target="__blank"><img src="https://img.shields.io/static/v1?label=&message=docs%20%26%20demos&color=45b8cd" alt="Docs & Demos"></a>
 <a href="https://sli.dev/themes/gallery.html" target="__blank"><img src="https://img.shields.io/static/v1?label=&message=themes&color=4ec5d4" alt="Themes"></a>
 <br>
-<a href="https://github.com/slidevjs/slidev" target="__blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/slidevjs/slidev?style=social"></a>
+<a href="https://github.com/helloxm/slidev" target="__blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/helloxm/slidev?style=social"></a>
 </p>
 
 <p align="center">
   <a href="https://twitter.com/antfu7/status/1389604687502995457">Video Preview</a> | <a href="https://sli.dev">Documentation</a>
 </p>
-
-<div align="center">
-<table>
-<tbody>
-<td align="center">
-<img width="2000" height="0" alt="" aria-hiden><br>
-<sub>Made possible by my <a href="https://github.com/sponsors/antfu">Sponsor Program 💖</a></sub><br>
-<img width="2000" height="0" alt="" aria-hiden>
-</td>
-</tbody>
-</table>
-</div>
 
 ## Features
 
@@ -45,7 +33,7 @@ Presentation <b>slide</b>s for <b>dev</b>elopers 🧑‍💻👩‍💻👨‍�
 - 🧮 [**LaTeX**](https://sli.dev/guide/syntax.html#latex) - built-in LaTeX math equations support.
 - 📰 [**Diagrams**](https://sli.dev/guide/syntax.html#diagrams) - creates diagrams with textual descriptions
 - 🌟 [**Icons**](https://sli.dev/guide/syntax.html#icons) - access to icons from any iconset directly.
-- 💻 [**Editors**](https://sli.dev/guide/editors.html) - integrated editor, or [extension for VS Code](https://github.com/slidevjs/slidev-vscode)
+- 💻 [**Editors**](https://sli.dev/guide/editors.html) - integrated editor, or [extension for VS Code](https://github.com/helloxm/slidev-vscode)
 - 🎥 [**Recording**](https://sli.dev/guide/recording.html) - built-in recording and camera view.
 - 📤 [**Portable**](https://sli.dev/guide/exporting.html) - export into PDF, PNGs, or even a hostable SPA.
 - ⚡️ [**Fast**](https://vitejs.dev) - instant reloading powered by [Vite](https://vitejs.dev).
@@ -53,18 +41,12 @@ Presentation <b>slide</b>s for <b>dev</b>elopers 🧑‍💻👩‍💻👨‍�
 
 ## Getting Started
 
-### Try it Online ⚡️
-
-[sli.dev/new](https://sli.dev/new)
-
-[![](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://sli.dev/new)
-
 ### Init Project Locally
 
 Install [Node.js >=18](https://nodejs.org/) and run the following command:
 
 ```bash
-npm init slidev
+npm init smslidev
 ```
 
 Documentation:
@@ -72,7 +54,7 @@ Documentation:
 
 Discord: [chat.sli.dev](https://chat.sli.dev)
 
-For a full example, you can check the [demo](https://github.com/slidevjs/slidev/blob/main/demo) folder, which is also the source file for [my previous talk](https://antfu.me/posts/composable-vue-vueday-2021).
+For a full example, you can check the [demo](https://github.com/helloxm/slidev/blob/main/demo) folder, which is also the source file for [my previous talk](https://antfu.me/posts/composable-vue-vueday-2021).
 
 ## Tech Stack
 
@@ -87,16 +69,6 @@ For a full example, you can check the [demo](https://github.com/slidevjs/slidev/
 - [KaTeX](https://katex.org/) - LaTeX math rendering.
 - [Mermaid](https://mermaid-js.github.io/mermaid) - Textual Diagrams.
 
-## Sponsors
-
-This project is made possible by all the sponsors supporting my work:
-
-<p align="center">
-  <a href="https://github.com/sponsors/antfu">
-    <img src='https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg' alt="Logos from Sponsors" />
-  </a>
-</p>
-
 ## License
 
-MIT License © 2021 [Anthony Fu](https://github.com/antfu)
+MIT License © 2021 [Anthony Fu](https://github.com/antfu) [Helloxm](https://github.com/helloxm)
