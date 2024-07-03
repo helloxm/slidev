@@ -17,7 +17,7 @@ for (const template of templates) {
     if (!pkg[name])
       continue
     pkg[name] = objectMap(pkg[name], (k, v) => {
-      if (k.startsWith('@slidev/') && !k.startsWith('@slidev/theme'))
+      if (k.startsWith('@smslidev/') && !k.startsWith('@slidev/theme'))
         return [k, `^${version}`]
       return [k, v]
     })
