@@ -2,6 +2,7 @@
 import { useVModel } from '@vueuse/core'
 import { computed } from 'vue'
 import { configs } from '../env'
+import PoweredBySlidev from '../builtin/PoweredBySlidev.vue'
 import Modal from './Modal.vue'
 
 const props = defineProps({
@@ -23,23 +24,7 @@ const hasInfo = computed(() => typeof configs.info === 'string')
         class="mb-4"
         v-html="configs.info"
       />
-      <a
-        href="https://github.com/slidevjs/slidev"
-        target="_blank"
-        class="!opacity-100 !border-none !text-current"
-      >
-        <div class="flex gap-1 children:my-auto">
-          <div class="opacity-50 text-sm mr-2">Powered by</div>
-          <img
-            class="w-5 h-5"
-            src="../assets/logo.png"
-            alt="Slidev logo"
-          >
-          <div style="color: #2082A6">
-            <b>Sli</b>dev
-          </div>
-        </div>
-      </a>
+      <PoweredBySlidev />
     </div>
   </Modal>
 </template>
